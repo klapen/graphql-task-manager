@@ -1,0 +1,31 @@
+{
+  "name": "graphql-task-manager",
+  "version": "0.0.1",
+  "description": "GraphQL Tutorial - Task manager",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon src/server",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/klapen/graphql-task-manager.git"
+  },
+  "keywords": [
+    "GraphQL",
+    "Node"
+  ],
+  "author": "Orlando Saavedra <oasaavedrac@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/klapen/graphql-task-manager/issues"
+  },
+  "homepage": "https://github.com/klapen/graphql-task-manager#readme",
+  "dependencies": {
+    "apollo-server-express": "^2.9.6",
+    "express": "^4.17.1",
+    "graphql": "^14.5.8",
+    "lodash": "^4.17.15",
+    "nodemon": "^1.19.3"
+  }
+}
